@@ -1,18 +1,11 @@
 ---
 application:
-  name: "devfullstack-ghost"
+  name: "turbo-test"
   project: "ghost-project"
   organization: "QoveryCommunity"
-databases:
-- type: "MYSQL"
-  name: "studi"
-  version: "8.0"
-- type: "POSTGRESQL"
-  name: "studifull"
-  version: "11"
 routers:
-- name: "main-devfullstack-ghost"
+- name: "main-turbo-test"
   routes:
-  - application_name: "devfullstack-ghost"
+  - application_name: "turbo-test"
     paths:
     - "/*"
